@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <title>960 + Atatonic</title>
+  
+  <meta name="author" content="Tim Benniks"/>
+  
+  <link href="./lib/css/base.css" type="text/css" media="screen,print" rel="stylesheet"/>
+  <link href="./lib/css/type.css" type="text/css" media="screen,print" rel="stylesheet"/>
+  <link href="./lib/css/960.css"  type="text/css" media="screen,print" rel="stylesheet"/>
+  <link href="./lib/css/form.css" type="text/css" media="screen,print" rel="stylesheet"/>
+  
+  <link href="./lib/css/print.css" type="text/css" media="print" rel="stylesheet"/>
+  
+  <!--[if IE]>
+  <link href="./lib/css/ie.css" type="text/css" media="screen" rel="stylesheet"/>
+  <![endif]-->
+
+  <style type="text/css">
+  body { font-family: "lucida grande", verdana, arial, sans-serif;
+    margin: 1.5em;
+    /*background: url(lib/images/gridbg-18.gif);*/ }
+  </style>
+  
+  <script type="text/javascript">
+  // 960 Gridder override
+  var gOverride = {
+    urlBase: 'http://gridder.andreehansson.se/releases/latest/',
+    gColor: 'rgba(255, 210, 210, 0.35)', gColumns: 12, gOpacity: 0.35, gWidth: 10,
+    pColor: 'rgba(255, 180, 180, 0.35)', pHeight: 18, pOffset: 0, pOpacity: 0.55,
+    center: true, gEnabled: true, pEnabled: true, setupEnabled: false,
+    fixFlash: true, size: 960
+  };
+  </script>
+</head>
+<body>
+
+<!--p class="skip">
+  <a href="#content" title="Go directly to page content">Go to page content</a>
+</p-->
+
+<div class="container_12">
+  <section class="grid_8" id="content">
+    <h1>960 + Atatonic CSS Frameworks</h1>
+    
+    <h2>A CSS Study by Tim Benniks</h2>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+    mollit anim id est laborum.</p>
+
+    <h3>What another framework?</h3>
+    <p>Lorem ipsum dolor sit amet, <a href="http://www.timbenniks.com">consectetur</a>
+    adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+    mollit anim id est laborum.</p>
+    
+    <hr/>
+    
+    <article class="grid_4 alpha">
+      <h4>Testing 1</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </article>
+    
+    <article class="grid_4 omega">
+      <h4>Testing 2</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </article>
+    
+    <span class="clear"></span>
+    
+    <hr/>
+    
+    <h2>This is even better</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+    
+    <p class="button-wrap clearfix">
+      <button>I am a button</button>
+      <a class="button" href="#">I am a link with class button</a>
+    </p>
+    
+		<form method="post" action="" class="horizontal">
+			<h1>Form example</h1>
+
+<!--			<p class="notification error">The email is not correct</p> -->
+<!--			<p class="notification notice">That looks like a weird city to live in.</p> -->
+
+      <p>
+				<label for="name">Name</label>
+				<input tabindex="1" id="name" type="text" name="name" />
+			</p>
+			
+      <p>
+				<label for="street">Street name</label> 
+				<input tabindex="1" id="street" type="text" name="street" /> 
+			</p>	
+			
+      <p>
+				<label for="city">City</label> 
+				<input tabindex="2" id="city" type="text" name="city" class="form-field-notice" value="Mars" /> 
+			</p> 
+			
+      <p>
+				<label for="email">Email</label> 
+				<input tabindex="3" id="email" type="text" name="e-mail" class="form-field-error" value="@atatonic.net" /> 
+			</p> 
+			
+      <p>
+				<label for="message">Message</label> 
+				<textarea tabindex="4" id="message" name="message" rows="20" cols="85" class="small"></textarea> 
+			</p> 
+			
+			<p>
+				<label for="Lorem">Dropper</label>
+				<select tabindex="5" id="Lorem"  name="Lorem ipsum">
+					<option selected="selected" value="1">Lorem ipsum</option>
+					<option value="2">Dolor sit amet</option>
+					<option value="3">Consectetuer adipiscing</option>
+					<option value="4">Vitae diam</option>
+					<option value="5">Vestibulum ornare</option>
+				</select>
+			</p>	
+
+			<p>
+				<label for="checkbox">Uno</label>
+				<input tabindex="7" type="checkbox" id="checkbox" value="uno" />					
+			</p>	
+			
+			<p class="submit">
+  			<input type="submit" value="Preview"/>
+  			<input type="submit" value="Send" class="default"/>
+			</p>
+		</form>
+		
+		<p>
+		  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+		</p>
+  </section>
+
+  <aside class="grid_4" id="sidebar">
+    <h1>Sidebar</h1>
+    
+    <h2>A title in the sidebar</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <h3>What a nice rhythm</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <hr/>
+    
+    <article>
+      <h2>Some other stuff</h2>
+      <h3>With a sweet subtitle. Yes it is a sweet one.</h3>
+      <p>
+        <img src="./lib/images/example.jpg" alt="Helvetica" class="left"/>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </article>
+    
+    <article class="notification notice">
+      <h5>Atatonic notice</h5>
+      <p>This is a basic notice message, without a header it might even look nicer.</p>
+    </article>
+    
+    <article class="notification success">
+      <h5>Success</h5>
+      <p>This is a basic success message</p>
+    </article>
+    
+    <article class="notification error">
+      <h5>Error</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</p>
+    </article>
+  </aside>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* Based on the Atatonic CSS framework by Tim Benniks <tim@timbenniks.com> */
+
+body { font: normal normal 12px/18px "Lucida Grande", Arial, sans-serif; color: #111; }
+
+h1 { font: normal 36px/36px Georgia, "Times new roman", serif; }
+h2 { font: italic normal 18px/36px Georgia, "Times new roman", serif; }
+h3 { font-style: italic; color: #000; }
+h4 { font-style: italic; color: #666; }
+h3, h4, h5, h6 { font-size: 12px; margin: 0; line-height: 18px; }
+
+hr { height: 0; border: 0; margin: 0 0 17px 0; padding: 0;
+  width: 100%; border-top: 1px solid #e0e0e0; }
+
+p { margin: 0 0 18px; }
+
+p img.left,  li img.left  { float: left;  margin: 4px 6px 0 0; }
+p img.right, li img.right { float: right; margin: 4px 0 0 6px; }
+
+a, a:focus { color: #009; text-decoration: underline; }
+a:hover { color: #000; }
+
+blockquote { background: #F9F9F9; border-left: 6px solid #ccc; color: #333;
+  margin: 0 0 18px; padding: 9px; quotes: "“" "”" "‘" "’";
+  font: italic 13px/18px Georgia, "Times new roman", serif; }
+
+pre, code { overflow-x: auto;
+  -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+  background: #111; border: 1px solid #333; margin: 0 0 18px; padding: 9px;
+  font: 11px/18px monaco, courier, "courier new", monospace; }
+
+.notification { margin: 0 0 17px 0; padding: 0 4px; font-size: 11px; border-bottom: 1px solid; }
+.notification p { margin: 0; }
+.notice  { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.error   { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.success { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+

@@ -1,0 +1,10 @@
+/* Ie6 and 7 fixes */
+
+a.button, button, input[type=submit] { display: inline; }
+button, input[type=submit] { line-height: 14px; }
+a.button { padding: 2px 4px 3px 4px !important; line-height: 14px; }
+
+*:first-child+html button[type] {
+  padding: 0 4px 0 4px; /* IE7 */
+}
+

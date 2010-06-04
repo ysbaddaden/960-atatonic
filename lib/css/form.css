@@ -1,0 +1,78 @@
+/* Based on the Atatonic CSS framework by Tim Benniks <tim@timbenniks.com> */
+
+/* buttons */
+a.button, button, input[type=submit], .submit input {
+  display: inline-block; margin: 6px 3px 7px 0; padding: 3px 10px; 
+  
+  -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+  line-height: 16px; font: inherit; font-weight: normal; text-decoration: none;
+  white-space: nowrap; vertical-align: baseline; cursor: pointer;
+  
+  border: 1px solid #ccc; border-color: #999 #858585 #666 #858585; color: #333;
+  background: #BBB url(../../images/button.png) left top repeat-x;
+  background: -moz-linear-gradient(top center, #E8E5E5, #D1CECE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#E8E5E5), to(#D1CECE));
+}
+button, input[type=submit], .submit input { width: auto; overflow: visible; padding: 1px 8px; }
+a.button { line-height: 14px; }
+button[type] { line-height: 16px; /* Safari */ }
+
+a.button:hover, button:hover, input[type=submit]:hover, .submit input:hover {
+  background-color: #BBB; border: 1px solid #000; color: #000; text-decoration: none; }
+
+/* form */
+form { padding: 18px; margin-bottom: 18px; background: #EEE; }
+form h1 { border-bottom: 1px solid #BBB; padding-bottom: 18px; }
+form .default { font-weight: bold; }
+
+input, textarea, select { font: inherit; background: #FFF; border: 1px solid #BBB;
+  margin: 0; padding: 0; }
+textarea.small { height: 4.5em; }
+textarea { height: 9em; }
+textarea.big { height: 18em; }
+
+select { background: #f9f9f9; color: #333; }
+option { background: #fff; color: #000; }
+optgroup { background: #f2f2f2; color: #111; }
+
+.horizontal p { margin: 17px 0 0; }
+.horizontal label { display: inline-block; width: 123px; line-height: 18px; margin-right: 15px;
+  vertical-align: top; text-align: right; font-weight: bold; color: #666; }
+.horizontal input, .horizontal textarea, .horizontal select {
+  display: inline-block; width: 378px; height: 17px; vertical-align: top; }
+.horizontal select { height: 18px; }
+.horizontal textarea.small { height: 4.5em; }
+.horizontal textarea { height: 9em; }
+.horizontal textarea.big { height: 18em; }
+.horizontal input[type=checkbox] { display: inline; width: auto; }
+
+.horizontal .submit { text-align: right; padding-bottom: 2px; }
+.horizontal .submit input { width: auto; height: auto; }
+
+/*
+fieldset { margin: 0 0 18px 0; padding: 0; }
+legend { font-size: 18px; padding: 0; color: #333; }
+form p { margin: 0 0 11px; }
+
+label { cursor: pointer; color: #333; }
+.horizontal label { display: -moz-inline-box; display: inline-block;
+  width: 100px; margin: 0 12px 0 0; }
+.vertical label { display: block; }
+*/
+
+/*
+input, textarea, select { font: inherit; }
+
+textarea, input { padding: 4px; border: 1px solid #ddd; }
+textarea { font-family: "Lucida Sans", Helvetica, sans-serif; }
+textarea:focus, input:focus { background: #fffff9; }
+
+input[type="checkbox"], input[type="radio"] { margin: 3px 4px 0 0; }
+input[type="checkbox"] { color: #000; }
+input[type="radio"] { background-color: #fff; color: #000; }
+
+*/
+
+input.error, textarea.error { background: #FBE3E4; color: #8A1F11; border-color: #FBC2C4 #FBC2C4 #ee9b9e #FBC2C4; }
+input.alert, textarea.alert { background: #FFF6BF; color: #514721; border-color: #FFD324 #FFD324 #e3bb1b #FFD324; }
+
